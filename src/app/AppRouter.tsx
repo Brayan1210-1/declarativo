@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from 'react-router'
+import { Route, Routes, HashRouter } from 'react-router'
 
 import { LoginPage } from '../modules/login/page/LoginPage'
 import { AnimeListPage } from '../modules/anime/pages/anime-list.page'
@@ -13,7 +13,7 @@ import { PerfilFalso } from '../modules/perfil/PerfilPage'
 
 export const AppRouter = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
 
                 <Route element={<NavBar />}  >
@@ -54,7 +54,7 @@ export const AppRouter = () => {
 
 
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
 
     )
 }
