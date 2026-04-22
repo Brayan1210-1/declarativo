@@ -146,7 +146,7 @@ declaracion:
 
 #
 
-```<Outlet />``: sirve como marcador de posición  dentro de un componente padre para renderizar rutas anidadas (hijas). Es fundamental para crear layouts compartidos, permitiendo que elementos estáticos (como menús, encabezados o barras laterales) permanezcan fijos mientras el contenido interior cambia dinámicamente según la URL.
+```<Outlet />```: sirve como marcador de posición  dentro de un componente padre para renderizar rutas anidadas (hijas). Es fundamental para crear layouts compartidos, permitiendo que elementos estáticos (como menús, encabezados o barras laterales) permanezcan fijos mientras el contenido interior cambia dinámicamente según la URL.
 
  Layouts comunes: Mantiene componentes fijos (Layout) sin desmontarlos ni volver a renderizarlos al cambiar de página hija.
 
